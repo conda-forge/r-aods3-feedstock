@@ -1,11 +1,11 @@
-About r-aods3
-=============
+About r-aods3-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aods3-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=aods3
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aods3-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides functions to analyse overdispersed counts or proportions.  These functions should be considered as complements to more sophisticated methods such as generalized estimating equations (GEE) or generalized linear mixed effect models (GLMM). aods3 is an S3 re-implementation of the deprecated S4 package aod.
 
