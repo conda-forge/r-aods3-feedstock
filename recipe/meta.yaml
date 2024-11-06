@@ -1,4 +1,4 @@
-{% set version = '0.4-1.2' %}
+{% set version = "0.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/aods3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/aods3/aods3_{{ version }}.tar.gz
-  sha256: 8d5cfcea7c971ad5ebc9e87c4b7316dbc797ce86285f02514d84296e4feea465
+  sha256: 322725869057a617e105d55d1c6e12c5c195577f0ea1daf25076568ccdb0f66e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,10 +35,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=aods3
   license: GPL-2.0-or-later
-  summary: Provides functions to analyse overdispersed counts or proportions.  These functions
-    should be considered as complements to more sophisticated methods such as generalized
-    estimating equations (GEE) or generalized linear mixed effect models (GLMM). aods3
-    is an S3 re-implementation of the deprecated S4 package aod.
+  summary: Provides functions to analyse overdispersed counts or proportions.  These functions should be considered as complements to more sophisticated methods such as generalized estimating equations (GEE) or generalized linear mixed effect models (GLMM). aods3 is an S3 re-implementation of the deprecated S4 package aod.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
