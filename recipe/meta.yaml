@@ -1,4 +1,4 @@
-{% set version = "0.5" %}
+{% set version = "0.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/aods3_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/aods3/aods3_{{ version }}.tar.gz
-  sha256: 322725869057a617e105d55d1c6e12c5c195577f0ea1daf25076568ccdb0f66e
+  sha256: 1fc6d3cd951072a65a1983eeef2fd6dd79cf9dc2e40d753b49709f7103c7b1db
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
